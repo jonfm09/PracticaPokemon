@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes, Link} from 'react-router-dom'
 import ListaPokemon from './ListaPokemon'
 import Formulario from './Formulario'
 import ListPokemones from './lista_axios/ListPokemones'
+import Logout from './Logout'
+import Perfil from './Perfil'
 
 export default function Navbar(props) {
   

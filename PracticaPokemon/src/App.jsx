@@ -1,12 +1,11 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import { useAuth0 } from '@auth0/auth0-react'
-import Logout from './components/Logout';
 import Login from './components/Login';
 
 function App() {
 
-  const {isAuthenticated} = useAuth0();
+  const {user, isAuthenticated} = useAuth0();
   /** direccion local de nuestro proyecto */
   console.log(window.location.origin)
 

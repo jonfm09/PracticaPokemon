@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import Tarjeta from './Tarjeta'
+import './Tarjeta' 
+
 
 
 export default function ListaPokemon() {
