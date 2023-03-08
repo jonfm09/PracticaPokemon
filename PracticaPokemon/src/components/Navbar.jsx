@@ -31,25 +31,25 @@ export default function Navbar(props) {
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="">
+                    <div className="navbar-nav">
                         {/**
                          * Componente <Link/> Hace referencia a las rutas que creamos
                          * propiedad to => asignamos el nombre del a ruta (path)
                          */}
-                        <ul className=''> 
-                            <li className=''>
+                        <ul className='navbar-nav'> 
+                            <li className='nav-item'>
                                 <Link to="/" className='nav-link'>Home</Link>
                             </li>
-                            <li className=''>
+                            <li className='nav-item'>
                                 <Link to="/formulario" className='nav-link'>Formulario</Link>
                             </li>
-                            <li className=''>
+                            <li className='nav-item'>
                                 <Link to="/lista2" className='nav-link'>Pokemones</Link>
                             </li>
-                            <li className=''>
+                            <li className='nav-item'>
                                 <Link to="/perfil" className='nav-link'>Perfil del Usuario</Link>
                             </li>
-                            <li className=''>
+                            <li className='nav-item'>
                                 <Logout />
                             </li>
                         </ul>
